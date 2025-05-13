@@ -1,0 +1,28 @@
+.cell {
+    width: 95px;
+    height: 95px;
+    border: 2px solid;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameContainer h1 {
+    font-size: 3rem;
+    margin: 15px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 210px;
+
+}
