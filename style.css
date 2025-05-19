@@ -5,6 +5,8 @@
     cursor: pointer;
     box-shadow: 0 0 0 2px;
     line-height: 75px;
+    font-size: 4.5rem;
+
 }
 
 .gameContainer {
@@ -12,17 +14,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+    text-align: center;
 }
 
 .gameContainer h1 {
     font-size: 3rem;
-    margin: 15px auto;
+    
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 210px;
+    width: 270px;
 
+}
+
+.gameContainer .reset {
+    margin: 20px auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+    background-color: rgb(9, 127, 224);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
