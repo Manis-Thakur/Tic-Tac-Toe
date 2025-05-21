@@ -30,8 +30,12 @@
 
 }
 
+.gameContainer #statusText{
+    font-size: 2rem;
+}
+
 .gameContainer .reset {
-    margin: 20px auto;
+    margin: 5px auto;
     padding: 20px 50px;
     border-radius: 15px;
     background-color: rgb(9, 127, 224);
